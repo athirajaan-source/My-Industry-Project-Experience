@@ -94,30 +94,20 @@ Project Structure
 project/
 │
 ├── data/
-│   ├── natural_gas_prices.csv
-│   ├── personal_loans.csv
-│   └── mortgage_data.csv
-│
-├── forecasting/
-│   ├── sarimax_model.py
-│   ├── xgboost_model.py
-│   └── fourier_features.py
-│
-├── valuation/
-│   └── gas_storage_valuation.py
-│
-├── credit_risk/
-│   ├── loan_pd_xgboost.py
-│   ├── fico_bucketization.py
-│   └── mortgage_pd_logit.py
+│   ├── Nat_Gas.csv                       # Monthly natural gas price data
+│   ├── Task 3 and 4_Loan_Data.csv        # Loan dataset for PD modeling
+│   ├── Portfolio_Expected_Loss_Output.csv # Expected Loss results (optional output)
+│   └── mortgage_with_PD.csv              # Mortgage dataset with PD estimates
 │
 ├── notebooks/
-│   ├── 01_gas_forecasting.ipynb
-│   ├── 02_storage_valuation.ipynb
-│   ├── 03_loan_pd_model.ipynb
-│   └── 04_mortgage_pd_model.ipynb
+│   ├── Task1-DataAnalysisPriceEstimate.ipynb      # Natural gas analysis + forecasting
+│   ├── Task2-PricingModel.ipynb                   # Storage contract pricing model
+│   ├── Task3_ProbilityofDefault_Perdiction.ipynb  # Personal loan PD model (XGBoost)
+│   └── Task4FicoScoreBucket.ipynb                 # Mortgage PD model (FICO bucketization)
 │
 └── README.md
+All analysis, modeling, and forecasting are implemented inside the Jupyter notebooks located in the notebooks/ directory.
+All datasets and output files are stored inside the data/ directory.
 
 Installation
 
@@ -131,23 +121,20 @@ Usage
 
 Run natural gas forecasting:
 
-python forecasting/sarimax_model.py
-python forecasting/xgboost_model.py
-
+ Task1-DataAnalysisPriceEstimate.ipynb
 
 Run gas storage valuation:
 
-python valuation/gas_storage_valuation.py
+ Task2-PricingModel.ipynb
 
 
 Train personal loan PD model:
 
-python credit_risk/loan_pd_xgboost.py
-
+Task3_ProbilityofDefault_Perdiction.ipynb
 
 Train mortgage PD model:
 
-python credit_risk/mortgage_pd_logit.py
+Task4FicoScoreBucket.ipynb
 
 Future Enhancements
 
