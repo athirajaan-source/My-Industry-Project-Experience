@@ -1,3 +1,11 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen.svg)
+
+![Models](https://img.shields.io/badge/Models-SARIMAX%20%7C%20XGBoost%20%7C%20LogisticRegression-blue)
+
+
 JPMorgan – Quantitative Research Project
 
 This repository contains a multi-domain quantitative modeling suite inspired by the JPMorgan Quantitative Research workflow.
