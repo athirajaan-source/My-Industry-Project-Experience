@@ -40,7 +40,7 @@ Contract Value = (Sell Price – Buy Price) × Volume – Total Costs
 
 Task 3 – Personal Loan Probability of Default (PD) Model
 
-Builds a borrower-level PD model using XGBoost with engineered credit features:
+Builds a borrower-level PD model using Logistic Regression with engineered credit features:
 
 Debt-to-Income ratio (DTI)
 
@@ -77,7 +77,7 @@ Project Structure My-Industry-Project-Experience/ │ ├── data/ │
 └── mortgage_with_PD.csv # Mortgage dataset with PD outputs │
 ├── notebooks/ │ ├── 01_NaturalGas_Forecasting_PriceEstimation.ipynb │
 ├── 02_GasStorage_PricingModel.ipynb │ 
-├── 03_PersonalLoan_PD_XGBoost.ipynb │ 
+├── 03_PersonalLoan_PD_LogisticRegression.ipynb │ 
 └── 04_MortgagePD_FICO_Bucketization.ipynb │
 └── README.md
 
