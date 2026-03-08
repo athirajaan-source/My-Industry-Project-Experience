@@ -124,13 +124,14 @@ jupyter notebook
 - **Data Visualization:** `Matplotlib`, `Seaborn`
 - **Core Stack:** Python, `pandas`, `NumPy`, `scikit-learn`, `statsmodels`
 
----
-* ### License
+### License
 
 This project is released under the MIT License.
 
 ### Author
 
-Athilakshmi Alagarsamy Quantitative Research | Machine Learning | Financial Modeling*
-```
+Athilakshmi Alagarsamy Quantitative Research | Machine Learning | Financial Modeling
+---
+
+
 
