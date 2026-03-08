@@ -128,10 +128,11 @@ jupyter notebook
 *If you have any questions or feedback regarding these models, feel free to reach out or open an issue!*
 ```
 
-License
+### License
 
 This project is released under the MIT License.
 
-Author
+### Author
 
 Athilakshmi Alagarsamy Quantitative Research | Machine Learning | Financial Modeling
+```
