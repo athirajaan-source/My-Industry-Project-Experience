@@ -125,14 +125,12 @@ jupyter notebook
 - **Core Stack:** Python, `pandas`, `NumPy`, `scikit-learn`, `statsmodels`
 
 ---
-*If you have any questions or feedback regarding these models, feel free to reach out or open an issue!*
-```
-
-### License
+* ### License
 
 This project is released under the MIT License.
 
 ### Author
 
-Athilakshmi Alagarsamy Quantitative Research | Machine Learning | Financial Modeling
+Athilakshmi Alagarsamy Quantitative Research | Machine Learning | Financial Modeling*
 ```
+
