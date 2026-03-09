@@ -23,6 +23,12 @@ Implements statistical and machine learning forecasting models to predict natura
 - **Feature Engineering:** Implemented Fourier seasonal terms to capture long periodic cycles.
 - **Outputs:** Estimation of natural gas price for any arbitrary future date, accompanied by visualizations of trends and seasonality.
 
+![Model Output]
+<img width="997" height="528" alt="NaturalGasPrice_Forecasting" src="https://github.com/user-attachments/assets/e55d0fa8-8f58-449b-a3fc-e3f229f73f9f" />
+![Model Output]
+<img width="420" height="165" alt="PDEstimation_Output" src="https://github.com/user-attachments/assets/2d6c60c9-ff23-478f-ad3e-0dedf775cb52" />
+![Model Output]
+<img width="506" height="414" alt="FICOBukets_EvaluationMetrics" src="https://github.com/user-attachments/assets/82e36eb0-1f2a-4c94-8600-144f7441b5c0" />
 
 ### 2️⃣ Task 2 – Natural Gas Storage Contract Pricing
 Simulates operational and financial components of a real-world gas storage contract:
